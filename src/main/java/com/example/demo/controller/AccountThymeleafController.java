@@ -4,6 +4,7 @@ import com.example.demo.entity.Account;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.List;
 @Controller
 public class AccountThymeleafController {
 
-    @RequestMapping("/account")
+    @RequestMapping(value = "/account", method = RequestMethod.GET)
     public String index(Model model) {
         List<Account> list = new ArrayList<Account>();
         list.add(new Account("KangKang", "康康", "e10adc3949ba59abbe56e", "超级管理员", "17777777777"));

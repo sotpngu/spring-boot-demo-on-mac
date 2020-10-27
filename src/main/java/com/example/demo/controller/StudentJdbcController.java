@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("jdbc")
+@RequestMapping("/jdbc")
 public class StudentJdbcController {
 
     @Autowired
@@ -23,7 +23,7 @@ public class StudentJdbcController {
         return this.studentJdbcService.queryStudentBySno(sno);
     }
 
-    @RequestMapping(value = "/queryallstudent")
+    @RequestMapping(value = "/queryallstudent", method = RequestMethod.GET)
     public List<Map<String, Object>> queryAllStudent() {
         return this.studentJdbcService.queryStudentListMap();
     }
