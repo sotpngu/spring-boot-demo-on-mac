@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})  // same as @Configuration @EnableAutoConfiguration @ComponentScan
 @EnableConfigurationProperties({GmhConfigBean.class}) // 自定义配置文件
+@EnableCaching // 开启缓存功能
 public class DemoApplication {
 
 	@RequestMapping("/hello")

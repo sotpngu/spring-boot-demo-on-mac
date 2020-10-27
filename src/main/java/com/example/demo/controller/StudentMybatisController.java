@@ -18,3 +18,5 @@ public class StudentMybatisController {
         return this.studentMybatisService.queryStudentBySno(sno);
     }
 }
+
+// http://localhost:8088/querystudent?sno=003

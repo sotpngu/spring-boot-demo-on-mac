@@ -1,5 +1,10 @@
 server:
   port: 8088
+logging:
+  level:
+    com:
+      example:
+        demo: debug
 spring:
   profiles:
     active: dev

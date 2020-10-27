@@ -2,9 +2,9 @@ package com.example.demo.mapper;
 
 import com.example.demo.entity.Student;
 import org.apache.ibatis.annotations.*;
+import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.stereotype.Component;
 
-@Component
 @Mapper
 public interface StudentMybatisMapper {
     @Insert("insert into tb_student(sno,name,sex) values(#{sno},#{name},#{sex})")

@@ -4,6 +4,7 @@ import com.example.demo.entity.Student;
 import com.example.demo.mapper.StudentMybatisMapper;
 import com.example.demo.service.StudentMybatisService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,8 +18,9 @@ public class StudentMybatisServiceImp implements StudentMybatisService {
     }
 
     @Override
-    public int update(Student student) {
-        return this.studentMybatisMapper.update(student);
+    public Student update(Student student) {
+         this.studentMybatisMapper.update(student);
+         return this.studentMybatisMapper.queryStudentBySno(student.getSno());
     }
 
     @Override
