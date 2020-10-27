@@ -29,3 +29,7 @@ Swagger常用注解：
 @ApiImplicitParams：多个请求参数。
 
 启动项目，访问 http://127.0.0.1:8088/swagger-ui.html 即可看到Swagger给我们生成的API页面
+
+actuator:
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready

@@ -1,4 +1,4 @@
-debug: false
+debug: true
 application:
   name: dev环境 @artifactId@
   version: dev环境 @version@
