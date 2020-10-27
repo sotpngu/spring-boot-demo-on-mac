@@ -89,3 +89,5 @@ spring:
       min-idle: 0
     # 连接超时时间（毫秒）
     timeout: 0
+  thymeleaf:
+    cache: false
