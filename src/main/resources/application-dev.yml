@@ -1,4 +1,4 @@
-debug: true
+debug: false
 application:
   name: dev环境 @artifactId@
   version: dev环境 @version@
@@ -91,3 +91,14 @@ spring:
     timeout: 0
   thymeleaf:
     cache: false
+  mail:
+    host: smtp.163.com
+    username: 18930330252@163.com
+    password: Apple,940330
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
