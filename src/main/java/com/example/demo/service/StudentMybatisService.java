@@ -44,6 +44,6 @@ public interface StudentMybatisService {
     @Cacheable(key = "#p0")
     Student queryStudentBySno(String sno);
 
-    // @Cacheable(key = "#p0")
+    @Cacheable(cacheNames="Students",key="'Student-'+#sno")
     List<Student> queryAllStudent();
 }
