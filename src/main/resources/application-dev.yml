@@ -11,6 +11,11 @@ mrbird:
   blog:
     name: gaominghao
     title: vlog
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 spring:
   datasource:
     druid:

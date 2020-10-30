@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class StudentMybatisServiceImp implements StudentMybatisService {
     @Autowired
@@ -33,5 +35,7 @@ public class StudentMybatisServiceImp implements StudentMybatisService {
         return this.studentMybatisMapper.queryStudentBySno(sno);
     }
 
+    @Override
+    public List<Student> queryAllStudent() { return this.studentMybatisMapper.queryAllStudent(); }
 
 }

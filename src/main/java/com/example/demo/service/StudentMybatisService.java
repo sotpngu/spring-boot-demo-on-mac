@@ -7,6 +7,8 @@ import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @CacheConfig(cacheNames = "student")
 public interface StudentMybatisService {
     int add(Student student);
@@ -41,4 +43,7 @@ public interface StudentMybatisService {
     // 这里#p0代表sno
     @Cacheable(key = "#p0")
     Student queryStudentBySno(String sno);
+
+    // @Cacheable(key = "#p0")
+    List<Student> queryAllStudent();
 }

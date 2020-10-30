@@ -5,6 +5,8 @@ import org.apache.ibatis.annotations.*;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Mapper
 public interface StudentMybatisMapper {
     @Insert("insert into tb_student(sno,name,sex) values(#{sno},#{name},#{sex})")
@@ -23,4 +25,12 @@ public interface StudentMybatisMapper {
             @Result(property = "sex", column = "sex", javaType = String.class),
     })
     Student queryStudentBySno(String sno);
+
+    @Select("select * from tb_student")
+    @Results(id = "students", value = {
+            @Result(property = "sno", column = "sno", javaType = String.class),
+            @Result(property = "name", column = "name", javaType = String.class),
+            @Result(property = "sex", column = "sex", javaType = String.class),
+    })
+    List<Student> queryAllStudent();
 }
