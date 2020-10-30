@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+<!--  本地只打印  -->
+    <springProfile name="dev">
+        <logger name="com.example.demo.controller" level="DEBUG" additivity="false">
+            <appender-ref ref="CONSOLE" />
+        </logger>>
+    </springProfile>
+<!--  线上才记录  -->
+    <springProfile name="prod">
+        <logger name="com.example.demo.controller" level="WARN" additivity="false">
+            <appender-ref ref="FILE" />
+        </logger>
+    </springProfile>
+<!--  条件判断  -->
+    <if condition="true">
+        <then>
+            <logger name="com.example.demo.helper" level="DEBUG" additivity="false">
+                <appender-ref ref="CONSOLE"></appender-ref>
+            </logger>
+        </then>
+        <else>
+            <logger name="com.example.demo.helper" level="WARN" additivity="false">
+                <appender-ref ref="FILE"></appender-ref>
+            </logger>
+        </else>
+    </if>
+
+</configuration>

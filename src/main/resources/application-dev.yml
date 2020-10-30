@@ -11,6 +11,9 @@ mrbird:
   blog:
     name: gaominghao
     title: vlog
+logging:
+  file:
+    path: logs/
 pagehelper:
   helperDialect: mysql
   reasonable: true
