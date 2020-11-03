@@ -5829,3 +5829,218 @@ Unconditional classes:
 2020-11-02 16:29:04.004  INFO 9001 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-11-02 16:29:04.005  INFO 9001 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-11-02 16:29:04.021  INFO 9001 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-11-03 14:01:55.716  INFO 5586 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on minghaodeMacBook-Air.local with PID 5586 (/Users/minghaogao/javaProjects/demo/target/classes started by minghaogao in /Users/minghaogao/javaProjects/demo)
+2020-11-03 14:01:55.722 DEBUG 5586 --- [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-03 14:01:55.723  INFO 5586 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: dev
+2020-11-03 14:01:56.146  INFO 5586 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 14:01:56.147  INFO 5586 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 14:02:02.778  INFO 5586 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-03 14:02:02.787  INFO 5586 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-03 14:02:03.259  INFO 5586 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141ms. Found 0 Redis repository interfaces.
+2020-11-03 14:02:06.811  INFO 5586 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 14:02:06.898  INFO 5586 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 14:02:06.915  INFO 5586 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 14:02:06.940  INFO 5586 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.example.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$eaa6e1a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 14:02:08.610  INFO 5586 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2020-11-03 14:02:08.650  INFO 5586 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 14:02:08.651  INFO 5586 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 14:02:09.028  INFO 5586 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 14:02:09.028  INFO 5586 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12880 ms
+2020-11-03 14:02:10.123  INFO 5586 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-03 14:02:11.820  INFO 5586 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-03 14:02:16.086  INFO 5586 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-03 14:02:16.421  INFO 5586 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 14:02:18.335  INFO 5586 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2020-11-03 14:02:18.341  INFO 5586 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-03 14:02:18.402  INFO 5586 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-03 14:02:18.447  INFO 5586 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-03 14:02:19.155  INFO 5586 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2020-11-03 14:02:19.360  INFO 5586 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryStudentBySnoUsingGET_1
+2020-11-03 14:02:19.548  INFO 5586 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 27.717 seconds (JVM running for 30.769)
+2020-11-03 14:03:07.692  INFO 5586 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 14:03:07.694  INFO 5586 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 14:03:07.727  INFO 5586 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2020-11-03 14:03:07.875  WARN 5586 --- [http-nio-8088-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------377481417153827657580361;charset=UTF-8' not supported]
+2020-11-03 14:03:50.818  WARN 5586 --- [http-nio-8088-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------489841987794317586026804;charset=UTF-8' not supported]
+2020-11-03 14:04:17.139  WARN 5586 --- [http-nio-8088-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-11-03 14:04:40.074  WARN 5586 --- [http-nio-8088-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-11-03 14:04:54.052  WARN 5586 --- [http-nio-8088-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.service.ValidateLoginModel)]
+2020-11-03 14:04:57.269  WARN 5586 --- [http-nio-8088-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.service.ValidateLoginModel)]
+2020-11-03 14:07:37.784  INFO 5586 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-03 14:07:37.827  INFO 5586 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-03 14:08:00.422  INFO 5652 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on minghaodeMacBook-Air.local with PID 5652 (/Users/minghaogao/javaProjects/demo/target/classes started by minghaogao in /Users/minghaogao/javaProjects/demo)
+2020-11-03 14:08:00.430 DEBUG 5652 --- [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-03 14:08:00.430  INFO 5652 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: dev
+2020-11-03 14:08:00.900  INFO 5652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 14:08:00.903  INFO 5652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 14:08:07.479  INFO 5652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-03 14:08:07.492  INFO 5652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-03 14:08:07.646  INFO 5652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 0 Redis repository interfaces.
+2020-11-03 14:08:13.450  INFO 5652 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 14:08:13.646  INFO 5652 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 14:08:13.700  INFO 5652 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 14:08:13.782  INFO 5652 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.example.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$db6c00b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 14:08:17.339  INFO 5652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2020-11-03 14:08:17.432  INFO 5652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 14:08:17.433  INFO 5652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 14:08:18.096  INFO 5652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 14:08:18.097  INFO 5652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17193 ms
+2020-11-03 14:08:20.323  INFO 5652 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-03 14:08:23.116  INFO 5652 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-03 14:08:33.118  INFO 5652 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-03 14:08:33.785  INFO 5652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 14:08:36.289  INFO 5652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2020-11-03 14:08:36.292  INFO 5652 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-03 14:08:36.376  INFO 5652 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-03 14:08:36.415  INFO 5652 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-03 14:08:36.962  INFO 5652 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2020-11-03 14:08:37.278  INFO 5652 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryStudentBySnoUsingGET_1
+2020-11-03 14:08:37.783  INFO 5652 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 42.193 seconds (JVM running for 46.094)
+2020-11-03 14:09:18.757  INFO 5652 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 14:09:18.768  INFO 5652 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 14:09:18.859  INFO 5652 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 91 ms
+2020-11-03 14:09:19.242  WARN 5652 --- [http-nio-8088-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.entity.ValidateLogin)]
+2020-11-03 14:46:46.540  WARN 5652 --- [http-nio-8088-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-03 14:46:51.916  WARN 5652 --- [http-nio-8088-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.entity.ValidateLogin)]
+2020-11-03 14:47:09.129  WARN 5652 --- [http-nio-8088-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------861147096951060322129003;charset=UTF-8' not supported]
+2020-11-03 14:47:18.134  INFO 5652 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-03 14:47:18.171  INFO 5652 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-03 17:16:43.032  INFO 8544 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on minghaodeMacBook-Air.local with PID 8544 (/Users/minghaogao/javaProjects/demo/target/classes started by minghaogao in /Users/minghaogao/javaProjects/demo)
+2020-11-03 17:16:43.038 DEBUG 8544 --- [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-03 17:16:43.040  INFO 8544 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: dev
+2020-11-03 17:16:43.452  INFO 8544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 17:16:43.453  INFO 8544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 17:16:47.173  INFO 8544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-03 17:16:47.183  INFO 8544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-03 17:16:47.278  INFO 8544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2020-11-03 17:16:48.983  INFO 8544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:16:49.035  INFO 8544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:16:49.058  INFO 8544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:16:49.068  INFO 8544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.example.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$e138c3ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:16:50.645  INFO 8544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2020-11-03 17:16:50.684  INFO 8544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:16:50.685  INFO 8544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:16:51.077  INFO 8544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:16:51.077  INFO 8544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7624 ms
+2020-11-03 17:16:52.218  INFO 8544 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-03 17:16:53.343  INFO 8544 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-03 17:16:56.191  INFO 8544 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-03 17:16:56.618  INFO 8544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:16:58.590  INFO 8544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2020-11-03 17:16:58.593  INFO 8544 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-03 17:16:58.702  INFO 8544 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-03 17:16:58.742  INFO 8544 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-03 17:16:59.413  INFO 8544 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2020-11-03 17:16:59.552  INFO 8544 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryStudentBySnoUsingGET_1
+2020-11-03 17:16:59.727  INFO 8544 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 19.195 seconds (JVM running for 21.174)
+2020-11-03 17:17:35.411  INFO 8544 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:17:35.413  INFO 8544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:17:35.442  INFO 8544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2020-11-03 17:17:35.557  WARN 8544 --- [http-nio-8088-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------991360625845354252449226;charset=UTF-8' not supported]
+2020-11-03 17:18:38.247  WARN 8544 --- [http-nio-8088-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2020-11-03 17:18:48.188  WARN 8544 --- [http-nio-8088-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2020-11-03 17:19:27.813  WARN 8544 --- [http-nio-8088-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.entity.ValidateLogin): [Field error in object 'validateLogin' on field 'userName': rejected value [null]; codes [NotEmpty.validateLogin.userName,NotEmpty.userName,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateLogin.userName,userName]; arguments []; default message [userName]]; default message [用户名不能为空！]] ]
+2020-11-03 17:19:55.371  WARN 8544 --- [http-nio-8088-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.entity.ValidateLogin): [Field error in object 'validateLogin' on field 'userName': rejected value [null]; codes [NotEmpty.validateLogin.userName,NotEmpty.userName,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateLogin.userName,userName]; arguments []; default message [userName]]; default message [用户名不能为空！]] ]
+2020-11-03 17:20:10.814  WARN 8544 --- [http-nio-8088-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.entity.ValidateLogin): [Field error in object 'validateLogin' on field 'userName': rejected value [null]; codes [NotEmpty.validateLogin.userName,NotEmpty.userName,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateLogin.userName,userName]; arguments []; default message [userName]]; default message [用户名不能为空！]] ]
+2020-11-03 17:20:38.235  WARN 8544 --- [http-nio-8088-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.entity.ValidateLogin): [Field error in object 'validateLogin' on field 'userName': rejected value [null]; codes [NotEmpty.validateLogin.userName,NotEmpty.userName,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateLogin.userName,userName]; arguments []; default message [userName]]; default message [用户名不能为空！]] ]
+2020-11-03 17:21:55.088  WARN 8544 --- [http-nio-8088-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.demo.controller.ValidateLoginController.login(com.example.demo.entity.ValidateLogin): [Field error in object 'validateLogin' on field 'userName': rejected value [null]; codes [NotEmpty.validateLogin.userName,NotEmpty.userName,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateLogin.userName,userName]; arguments []; default message [userName]]; default message [用户名不能为空！]] ]
+2020-11-03 17:22:32.038  INFO 8544 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-03 17:22:32.094  INFO 8544 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-03 17:22:44.518  INFO 8648 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on minghaodeMacBook-Air.local with PID 8648 (/Users/minghaogao/javaProjects/demo/target/classes started by minghaogao in /Users/minghaogao/javaProjects/demo)
+2020-11-03 17:22:44.526 DEBUG 8648 --- [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-03 17:22:44.526  INFO 8648 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: dev
+2020-11-03 17:22:44.875  INFO 8648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 17:22:44.876  INFO 8648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 17:22:50.372  INFO 8648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-03 17:22:50.377  INFO 8648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-03 17:22:50.467  INFO 8648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 0 Redis repository interfaces.
+2020-11-03 17:22:52.324  INFO 8648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:22:52.391  INFO 8648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:22:52.409  INFO 8648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:22:52.428  INFO 8648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.example.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$42a96d3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:22:53.540  INFO 8648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2020-11-03 17:22:53.578  INFO 8648 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:22:53.579  INFO 8648 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:22:53.841  INFO 8648 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:22:53.842  INFO 8648 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8966 ms
+2020-11-03 17:22:54.577  INFO 8648 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-03 17:22:55.458  INFO 8648 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-03 17:22:58.451  INFO 8648 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-03 17:22:58.794  INFO 8648 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:23:00.316  INFO 8648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2020-11-03 17:23:00.318  INFO 8648 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-03 17:23:00.378  INFO 8648 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-03 17:23:00.416  INFO 8648 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-03 17:23:00.815  INFO 8648 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2020-11-03 17:23:01.039  INFO 8648 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryStudentBySnoUsingGET_1
+2020-11-03 17:23:01.242  INFO 8648 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 18.873 seconds (JVM running for 20.694)
+2020-11-03 17:23:51.045  INFO 8648 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:23:51.047  INFO 8648 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:23:51.084  INFO 8648 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 35 ms
+2020-11-03 17:26:26.992  INFO 8648 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-03 17:26:27.020  INFO 8648 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-03 17:26:38.389  INFO 8690 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on minghaodeMacBook-Air.local with PID 8690 (/Users/minghaogao/javaProjects/demo/target/classes started by minghaogao in /Users/minghaogao/javaProjects/demo)
+2020-11-03 17:26:38.395 DEBUG 8690 --- [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-03 17:26:38.396  INFO 8690 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: dev
+2020-11-03 17:26:38.768  INFO 8690 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 17:26:38.770  INFO 8690 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 17:26:42.344  INFO 8690 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-03 17:26:42.350  INFO 8690 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-03 17:26:42.427  INFO 8690 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+2020-11-03 17:26:43.972  INFO 8690 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:26:44.018  INFO 8690 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:26:44.037  INFO 8690 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:26:44.066  INFO 8690 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.example.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$dd5c3748] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:26:45.132  INFO 8690 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2020-11-03 17:26:45.162  INFO 8690 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:26:45.163  INFO 8690 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:26:45.399  INFO 8690 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:26:45.400  INFO 8690 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6629 ms
+2020-11-03 17:26:46.127  INFO 8690 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-03 17:26:47.040  INFO 8690 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-03 17:26:50.475  INFO 8690 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-03 17:26:51.014  INFO 8690 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:26:53.290  INFO 8690 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2020-11-03 17:26:53.292  INFO 8690 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-03 17:26:53.435  INFO 8690 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-03 17:26:53.495  INFO 8690 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-03 17:26:53.928  INFO 8690 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2020-11-03 17:26:54.114  INFO 8690 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryStudentBySnoUsingGET_1
+2020-11-03 17:26:54.357  INFO 8690 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 18.67 seconds (JVM running for 20.804)
+2020-11-03 17:26:58.931  INFO 8690 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:26:58.933  INFO 8690 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:26:58.951  INFO 8690 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-11-03 17:27:08.326  INFO 8690 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-03 17:27:08.358  INFO 8690 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-03 17:27:24.664  INFO 8701 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on minghaodeMacBook-Air.local with PID 8701 (/Users/minghaogao/javaProjects/demo/target/classes started by minghaogao in /Users/minghaogao/javaProjects/demo)
+2020-11-03 17:27:24.696 DEBUG 8701 --- [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-03 17:27:24.707  INFO 8701 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: dev
+2020-11-03 17:27:25.143  INFO 8701 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 17:27:25.145  INFO 8701 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 17:27:32.656  INFO 8701 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-03 17:27:32.675  INFO 8701 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-03 17:27:33.101  INFO 8701 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158ms. Found 0 Redis repository interfaces.
+2020-11-03 17:27:39.084  INFO 8701 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:27:39.251  INFO 8701 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:27:39.273  INFO 8701 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:27:39.305  INFO 8701 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.example.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$7a9e3cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-03 17:27:41.207  INFO 8701 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2020-11-03 17:27:41.243  INFO 8701 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:27:41.245  INFO 8701 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:27:41.526  INFO 8701 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:27:41.526  INFO 8701 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16381 ms
+2020-11-03 17:27:42.518  INFO 8701 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-03 17:27:43.593  INFO 8701 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-03 17:27:47.194  INFO 8701 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-03 17:27:47.561  INFO 8701 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:27:49.375  INFO 8701 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2020-11-03 17:27:49.378  INFO 8701 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-03 17:27:49.438  INFO 8701 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-03 17:27:49.482  INFO 8701 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-03 17:27:49.831  INFO 8701 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2020-11-03 17:27:50.097  INFO 8701 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryStudentBySnoUsingGET_1
+2020-11-03 17:27:50.416  INFO 8701 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 29.074 seconds (JVM running for 31.769)
+2020-11-03 17:27:56.261  INFO 8701 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:27:56.263  INFO 8701 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:27:56.313  INFO 8701 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 49 ms
+2020-11-03 18:47:04.321  WARN 8701 --- [http-nio-8088-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.util.Map<java.lang.String, java.lang.Object> com.example.demo.controller.ValidateLoginController.login(com.example.demo.entity.ValidateLogin): [Field error in object 'validateLogin' on field 'password': rejected value []; codes [Size.validateLogin.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateLogin.password,password]; arguments []; default message [password],2147483647,2]; default message [密码最少为2位]] ]
